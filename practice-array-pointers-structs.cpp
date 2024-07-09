@@ -6,32 +6,9 @@ void practiceArrays();
 
 void practicePointers();
 
-void practiceStructs();
-
-struct Suit
-{
-    string name;
-    int value;
-};
-
-struct Rank
-{
-    string name;
-    int value;
-};
-
-struct Card
-{
-    Suit suit;
-    Rank rank;
-    bool isFaceUp;
-};
-
-
-
 int main()
 {
-    // practiceArrays();
+    practiceArrays();
     practicePointers();
 }
 
@@ -119,13 +96,8 @@ void practicePointers()
     cout << endl;
 
     // Backward
-    for (int i = 11; i > -1 ; i--)
+    for (int i = 11; i > -1; i--)
     {
         cout << *(months + i) << endl;
     }
-}
-
-void practiceStructs()
-{
-    
 }
